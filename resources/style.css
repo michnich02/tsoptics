@@ -65,7 +65,21 @@ header img {
 
 /* ***** Content Section ***** */
 
+.caption {
+  display: flex;
+  justify-content: flex-end;
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 1.2;
+  margin-top: 10rem;
+  position: relative;
+  right: -2rem;
+}
 
-
+.caption p {
+  background-color: white;
+  padding: 1.5rem 5rem;
+}
 
 /* ***** Footer Section ***** */
