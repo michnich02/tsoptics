@@ -63,8 +63,6 @@ header img {
 
 }
 
-/* ***** Content Section ***** */
-
 .caption {
   display: flex;
   justify-content: flex-end;
@@ -82,4 +80,77 @@ header img {
   padding: 1.5rem 5rem;
 }
 
+/* ***** Content Section ***** */
+
+.content-section {
+  margin: auto;
+  border: 1px solid red;
+}
+
+/* ***** Icon Section ***** */
+
+.icons {
+  display: flex;
+  border: 1px solid green;
+}
+
+.icons p {
+  text-align: center;
+  font-family: Helvetica;
+}
+
+.icons img {
+  border: 1px solid yellow;
+}
+
+.paper, .ruler, .truck {
+  border: 1px solid pink;
+  margin: 3rem;
+  height: 8rem;
+  width: 5rem;
+}
+
+.paper img {
+  width: 3.5rem;
+}
+
+/* *****Text Section ***** */
+
+.text {
+  display: flex;
+}
+
+.text h1 {
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 1rem;
+  background-color: cadetblue;
+  padding: 0.5rem 1.25rem;
+  width: 10rem;
+}
+
+.text p {
+  font-family: Helvetica;
+  margin-top: 1rem;
+}
+
+.text-group {
+  width: 35%;
+  margin-left: 5%;
+  margin-bottom: 5rem;
+}
+
 /* ***** Footer Section ***** */
+
+.footer-section {
+  background-color: azure;
+  display: flex;
+  padding: 4rem;
+  font-family: Helvetica;
+  align-items: center;
+}
+
+.footer-section img {
+  height: 1.5rem;
+  margin-right: 1rem;
+}
