@@ -1,0 +1,71 @@
+html {
+  font-size: 18px;
+  line-height: 1.4;
+}
+
+html, body {
+  overflow-x: hidden;
+}
+
+.site-container {
+  width: 960px;
+  margin: auto;
+}
+
+/* ***** Top Section ***** */
+
+/* ***** Header ***** */
+
+header {
+  background-color: cadetblue;
+}
+
+header img {
+  /* margin-left: 2rem; */
+  margin-right: 1rem;
+  height: 1.5rem;
+}
+
+.header-content {
+  display: flex;
+  padding: 1rem 2rem;
+  margin-top: 1rem;
+  font-family: Helvetica;
+  font-size: 1rem;
+  color: white;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.navigation a{
+  color: white;
+  text-decoration: none;
+  margin-left: 2rem;
+}
+
+.navigation {
+  flex-grow: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* ***** Image and Caption ***** */
+
+.top-section {
+  position: relative;
+  padding: .75rem 9999rem;
+  margin: 0 -9999rem;
+  background-image: url("images/glasses-bg.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  height: 31rem;
+
+}
+
+/* ***** Content Section ***** */
+
+
+
+
+/* ***** Footer Section ***** */
